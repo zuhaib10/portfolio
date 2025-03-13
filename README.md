@@ -66,7 +66,7 @@ Edit the **Frontmatter** variables in these files:
 
 ### Profile Picture
 
-- Replace `/src/assets/profile.png` with your own image.
+- Replace `/portfolio/src/assets/profile.png` with your own image.
 
 ### Logo & OpenGraph Image
 
