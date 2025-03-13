@@ -1,0 +1,96 @@
+---
+import Html from "../icons/Tecnologias/Lenguajes/Html.astro";
+import Css from "../icons/Tecnologias/Lenguajes/Css.astro";
+import Js from "../icons/Tecnologias/Lenguajes/Js.astro";
+import React from "../icons/Tecnologias/Frameworks_Librerias/React.astro";
+import Social_icons from "./Social_icons.astro";
+import Github from "../icons/Social/Github.astro";
+import Link from "../icons/Social/Link.astro";
+
+const TAGS = {
+  Html: {
+    name: "Html",
+    class: "bg-[#963419] text-white",
+    icon: Html,
+  },
+  Css: {
+    name: "Css",
+    class: "bg-[#07436b] text-white",
+    icon: Css,
+  },
+  Js: {
+    name: "Js",
+    class: "bg-[#a39535] text-white",
+    icon: Js,
+  },
+  React: {
+    name: "React",
+    class: "bg-[#1c7777] text-white",
+    icon: React,
+  },
+};
+
+const PROJECTS = [
+  {
+    title: "Empresa Ficticia - Pagina informativa",
+    description: "Trabajo final de la materia programacion II. Se utilizo Html, Css, JS y React. Tuvo funciones como ChatBot y un sistema de turnos",
+    link: "#",
+    github: "https://github.com/Pietro923/Programacion",
+    image: "/projects/proyecto1.webp",
+    tags: [TAGS.Html, TAGS.Css, TAGS.Js, TAGS.React],
+  },
+  {
+    title: "Aplicacion del Clima",
+    description: "Pagina creada con el objetivo de usar API del clima y probar su funcionamiento. Se utilizo Html, Css y JS",
+    link: "#",
+    github: "https://github.com/Pietro923/api-del-clima",
+    image: "/projects/proyecto2.webp",
+    tags: [TAGS.Html, TAGS.Css, TAGS.Js],
+  },
+];
+---
+
+<div class="flex flex-col gap-y-16">
+  {PROJECTS.map(({ image, title, description, tags, link, github }) => (
+    <article class="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
+      <div class="w-full md:w-1/2 flex items-center group">
+        <div class="relative flex flex-col items-center transition duration-500 ease-in-out transform shadow-xl overflow-hidden rounded-xl sm:rounded-xl lg:border lg:border-gray-800 group-hover:shadow-2xl">
+          <img alt="Captura del Proyecto" class="object-cover object-top w-full h-full transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/2 flex flex-col justify-center">
+        <h3 class="text-2xl font-bold mb-2">{title}</h3>
+        <div class="flex flex-wrap mt-2">
+          <ul class="flex flex-row mb-2 gap-x-2">
+            {tags.map((tag) => (
+              <li = {tag.name}>
+                <span class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
+                  <tag.icon class="size-4" />
+                  {tag.name}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="mt-2 text-lg mb-4">{description}</div>
+
+        <footer class="flex items-end justify-start mt-4 gap-x-4">
+          {github && (
+            <Social_icons href={github}>
+              <Github class="size-6" />
+              Code
+            </Social_icons>
+          )}
+          {link && (
+            <Social_icons href={link}>
+              <Link class="size-4" />
+              Preview
+            </Social_icons>
+          )}
+        </footer>
+      </div>
+    </article>
+  ))}
+</div>

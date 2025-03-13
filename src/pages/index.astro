@@ -1,11 +1,81 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Badge from '../components/Badge.astro';
+import Linkedin from '../icons/Social/Linkedin.astro'
+import Github from '../icons/Social/Github.astro'
+import Social_icons from '../components/Social_icons.astro'
+import Gmail from '../icons/Social/Gmail.astro'
+import Section from '../components/Section.astro';
+import Section_tecno from '../components/Section_tecno.astro';
+import Tecnologias from '../components/Tecnologias.astro';
+import Code from '../icons/Titulos/Code.astro'
+import Proyectos from '../components/Proyectos.astro'
+import Certificados from '../components/Certificados.astro'
+import Sobre_mi from '../components/Sobre_mi.astro'
+import Cert_icon from '../icons/Titulos/Cert_icon.astro'
+import Me_icons from '../icons/Titulos/Me_icon.astro'
+import Section_sobremi from '../components/Section_sobremi.astro'
+import Footer from '../components/Footer.astro'
+import Discord from '../icons/Social/Discord.astro'
+import Section_certificados from '../components/Section_certificados.astro';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Portfolio de Pietro - Programador Full-Stack"
+description="Mi objetivo es aprender y mejorar constantemente, participando en proyectos innovadores que me permitan ampliar mis conocimientos y aportar soluciones creativas y efectivas.">
+	<main class="px-4">
+		<Section>
+			<img class="rounded-full w-20 h-20 mb-4" 
+			src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY5M3prNjdmdXV0YmVtMmlxNGNtc3pwNXplOGViMXl0cGFuc3JuNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fc4CgGnZOktRm/giphy.gif" alt="Pietro"
+			/> 
+		<h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-5 pb-6 lg:pb-10">
+			Hola, Soy Pietro 
+			<a href="https://www.linkedin.com/in/pietrobonacossa" target="_blank" rel="noopener"> <div class="flex justify-center items-center hover:scale-110 transition">
+				<Badge> Open To Work </Badge>
+			</div><a/></h1>
+		<h2 class="text-xl lg:text-2xl opacity-80 text-pretty max-w-{700px}">
+			<span class="text-blue-300">Programador Full-Stack.</span> <br>Tengo 20 años, soy de Tucumán, Argentina 🧉. Me especializo en tecnología y desarrollo de software, siempre buscando aprender y mejorar. Mi objetivo es participar en proyectos innovadores que amplíen mis conocimientos y permitan aportar soluciones creativas y efectivas.
+		</h2>
+		<nav class="flex gap-x-5 mt-6 flex-wrap">
+			<Social_icons href="https://www.linkedin.com/in/pietrobonacossa">
+				<Linkedin class="size-4 md:size-6"/>
+				LinkedIn
+			</Social_icons>
+			<Social_icons href="https://github.com/Pietro923">
+				<Github class="size-4 md:size-6"/>
+				GitHub
+			</Social_icons>
+			<Social_icons href="mailto:jpbonacossa@gmail.com">
+				<Gmail class="size-4 md:size-6"/>
+				jpbonacossa@gmail.com
+			</Social_icons>
+			<Social_icons href="https://discord.com/users/222491467275436033">
+				<Discord class="size-4 md:size-6"/>
+				Bonacxito
+			</Social_icons>
+		</nav>
+		</Section>
+		<Section_tecno id="tecnologias">
+			<Tecnologias/>
+		</Section_tecno>
+		<Section id="proyectos">
+			<div class="flex justify-center">
+				<h2 class="text-4xl font-semibold pb-10 flex gap-x-3 items-center text-center mb-4"> <Code class="size-8 "/>Proyectos </h2>
+			</div>
+			<Proyectos/>
+		</Section>
+		<Section_certificados id="certificados">
+			<div class="flex justify-center">
+				<h2 class="text-4xl font-semibold pb-10 flex gap-x-3 items-center text-center mb-4"> <Cert_icon class="size-8 "/>Certificados </h2>
+			</div>
+			<Certificados/>
+		</Section_certificados>
+		<Section_sobremi id="sobre_mi">
+			<div class="flex justify-center">
+				<h2 class="text-4xl font-semibold pb-10 flex gap-x-3 items-center text-center mb-4"> <Me_icons class="size-8 "/>Sobre mí </h2>
+			</div>
+			<Sobre_mi/>
+		</Section_sobremi>
+		<Footer/>
+	</main>
+	
 </Layout>
