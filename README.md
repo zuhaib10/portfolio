@@ -1,73 +1,48 @@
-# Astro Developer Portfolio Template
-A minimal, easy-to-customize developer portfolio template built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
-
-## Demo
-Check out a real-world example: [devidev.io](https://devidev.io)
-
-![Astro Developer Portfolio Template - About Preview | devi|dev|io](assets/preview-about.png)
-
-![Astro Developer Portfolio Template - Projects Preview | devi|dev|io](assets/preview-projects.png)
-
-## Features
-- No bundled JavaScript – optimized for performance and speed.
-- Fully responsive – mobile-friendly and adaptable across all devices.
-- SEO & Social Media Ready – includes OpenGraph, Twitter, and DublinCore metadata.
-- 100/100 Google PageSpeed Score – for both mobile and desktop.
-- Code highlighting – clean and readable syntax with [Shiki](https://github.com/shikijs/shiki).
-- Developer Portfolio & Projects Showcase – display your work with ease.
-- Code Editor-Inspired Design – modern and developer-friendly aesthetics.
-
-## Tech Stack
-- [Astro](https://astro.build/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Shiki](https://github.com/shikijs/shiki)
-
-## Getting Started
+# Astro Starter Kit: Basics
 
 ```sh
-# 1. Clone the repository
-git clone https://github.com/devidevio/astro-developer-portfolio .
-
-# 2. Install dependencies
-npm install
-
-# 3. Run the development server
-npm run dev
-
-# 4. Build for production
-npm run build
-
-# Deploy the contents of the `./dist` folder wherever you like.
+pnpm create astro@latest -- --template basics
 ```
 
-## Customization
-### Site & Domain Configuration
-- Modify `astro.config.mjs` to update your `site` settings, including metadata for SEO.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-### Theme Customization
-- Adjust the primary theme color in `tailwind.config.js`, to fit your branding.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-### Updating Content & SEO
-Edit the **Frontmatter** variables in these files:
-- `src/layouts/Layout.astro` – General page info (title, SEO, etc.)
-- `src/components/Socials.astro` – Update your social media links.
-- `src/components/Profile.astro` – Personal profile information.
-- `src/components/ContentProjects.astro` – Projects/portfolio section content.
-- `src/components/ContentAbout.astro` – About section content.
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-### Profile Picture
-- Replace `/src/assets/profile.png` with your own image.
+## 🚀 Project Structure
 
-### Logo & OpenGraph Image
-- Update these files:
-  - `/public/img/logo.svg` (your logo)
-  - `/public/img/meta.png` (your OpenGraph image)
+Inside of your Astro project, you'll see the following folders and files:
 
-Need a free OpenGraph image?
-- https://tailwind-generator.com/og-image-generator/generator
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-### Sitemap & Robots.txt
-- Adjust `/public/robots.txt` to match your domain.
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## ⭐ Contributing
-Feel free to fork, customize, and contribute to this project. If you find it useful, leaving a star would be greatly appreciated.
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `pnpm install`             | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
