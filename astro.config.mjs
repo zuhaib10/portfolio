@@ -8,7 +8,7 @@ export default defineConfig({
     output: 'static',
     trailingSlash: 'always',
     site: 'https://zuhaib10.github.io',
-    base: 'portfolio',
+    base: 'my-repo',
 
     // Single page, no prefetch needed
     prefetch: false,
