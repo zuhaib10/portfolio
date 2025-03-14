@@ -1,0 +1,48 @@
+{
+  "profile": {
+    "name": "t3ma",
+    "avatar": "/avatar.jpg",
+    "bio": [
+      {
+        "icon": "\uD83D\uDE0A",
+        "text": "Ready to help"
+      },
+      {
+        "icon": "🌏",
+        "text": "I live in Thailand"
+      }
+    ],
+    "socials": [
+      {
+        "name": "GitHub",
+        "icon": "📱",
+        "url": "https://github.com/temaprint"
+      },
+      {
+        "name": "Telegram",
+        "icon": "✈️",
+        "url": "https://t.me/t_3_m_a"
+      },
+      {
+        "name": "Facebook",
+        "icon": "👥",
+        "url": "https://facebook.com/temaprint/"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "💼",
+        "url": "https://www.linkedin.com/in/artem-kan-66a6a675/"
+      },
+      {
+        "name": "Twitter",
+        "icon": "\uD83D\uDC26",
+        "url": "https://twitter.com/temaprint"
+      },
+      {
+        "name": "Habr",
+        "icon": "🌟",
+        "url": "https://career.habr.com/netema"
+      }
+    ]
+  }
+}

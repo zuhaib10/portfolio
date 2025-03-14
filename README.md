@@ -1,87 +1,92 @@
-# Astro Developer Portfolio Template
+# Astro t3ma Blog Template
+![pic](public/t3ma0.jpg)
+![pic](public/t3ma.jpg)
 
-A minimal, easy-to-customize developer portfolio template built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
+## Overview
 
-## Demo
-
-Check out a real-world example: [devidev.io](https://devidev.io)
-
-![Astro Developer Portfolio Template - About Preview | devi|dev|io](assets/preview-about.png)
-
-![Astro Developer Portfolio Template - Projects Preview | devi|dev|io](assets/preview-projects.png)
+This is a custom-built **Astro t3ma template** that serves as the foundation for publishing and showcasing various projects, themes, and technical insights. It is designed for performance, readability, and scalability while maintaining a modern aesthetic.
 
 ## Features
 
-- No bundled JavaScript – optimized for performance and speed.
-- Fully responsive – mobile-friendly and adaptable across all devices.
-- SEO & Social Media Ready – includes OpenGraph, Twitter, and DublinCore metadata.
-- 100/100 Google PageSpeed Score – for both mobile and desktop.
-- Code highlighting – clean and readable syntax with [Shiki](https://github.com/shikijs/shiki).
-- Developer Portfolio & Projects Showcase – display your work with ease.
-- Code Editor-Inspired Design – modern and developer-friendly aesthetics.
+- 🚀 **Built with Astro** – A fast, static site generator for optimal performance.
+- 🎨 **Tailwind CSS** – Ensures a clean, responsive, and modern UI.
+- 📖 **Markdown & MDX Support** – Easily write and manage content.
+- 🔍 **SEO-Optimized** – Structured metadata for better search visibility.
+- 🏗 **Modular Components** – Designed with reusable Astro components.
+- 📱 **Fully Responsive** – Works seamlessly on all devices.
 
-## Tech Stack
+## Blog Sections
 
-- [Astro](https://astro.build/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Shiki](https://github.com/shikijs/shiki)
+This template hosts a variety of projects and blog posts, including:
 
-## Getting Started
+### 🚀 **Themes & Templates**
+- **Color Palettes** – A template to explore curated color palettes.
+- **Freaky Font** – A bold typeface designed for developers and designers.
+- **Bento Style for Astro** – A modern UI template inspired by Bento design.
+- **Low Power Blog** – A minimalist and energy-efficient blogging theme.
+- **topaitool.dev** – A curated AI tools directory for creators and developers.
 
-```sh
-# 1. Clone the repository
-git clone https://github.com/devidevio/astro-developer-portfolio .
+### 📁 **Projects**
+- **blog.icons8.com Technical Optimization** – SEO and technical improvements for the Icons8 blog platform.
 
-# 2. Install dependencies
+### 💼 **Work Experience**
+- **Icons8.com (2020 - Present)** – SEO Specialist
+- **Citysakh.ru (2010 - 2020)** – CEO
+
+## Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/temaprint/t3ma.git
+cd t3ma
+```
+
+### 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
-# 3. Run the development server
+### 3️⃣ Start the Development Server
+```bash
 npm run dev
+```
 
-# 4. Build for production
+This will start a local server where you can preview the blog.
+
+### 4️⃣ Build the Project
+```bash
 npm run build
+```
 
-# Deploy the contents of the `./dist` folder wherever you like.
+### 5️⃣ Preview the Build
+```bash
+npm run preview
+```
+
+## Content Structure
+```
+/src/content/posts/   # Blog posts in Markdown/MDX
+/src/content/pages/   # Static pages
+/src/layouts/         # Layout files
+/src/components/      # Reusable UI components
+/public/images/       # Image assets
 ```
 
 ## Customization
 
-### Site & Domain Configuration
+- Modify content inside `/src/content/`
+- Adjust styling in `/src/styles/`
+- Add new layouts in `/src/layouts/`
 
-- Modify `astro.config.mjs` to update your `site` settings, including metadata for SEO.
+## Deployment
+To deploy, build the project and upload the `dist/` folder to a static hosting provider like **Vercel, Netlify, or GitHub Pages**:
 
-### Theme Customization
+```bash
+npm run build
+```
 
-- Adjust the primary theme color in `tailwind.config.js`, to fit your branding.
+## License
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-### Updating Content & SEO
+🚀 **Start your own Astro-powered blog today!**
 
-Edit the **Frontmatter** variables in these files:
-
-- `src/layouts/Layout.astro` – General page info (title, SEO, etc.)
-- `src/components/Socials.astro` – Update your social media links.
-- `src/components/Profile.astro` – Personal profile information.
-- `src/components/ContentProjects.astro` – Projects/portfolio section content.
-- `src/components/ContentAbout.astro` – About section content.
-
-### Profile Picture
-
-- Replace `/portfolio/src/assets/profile.png` with your own image.
-
-### Logo & OpenGraph Image
-
-- Update these files:
-  - `/portfolio/public/img/logo.svg` (your logo)
-  - `/portfolio/public/img/meta.png` (your OpenGraph image)
-
-Need a free OpenGraph image?
-
-- https://tailwind-generator.com/og-image-generator/generator
-
-### Sitemap & Robots.txt
-
-- Adjust `/public/robots.txt` to match your domain.
-
-## ⭐ Contributing
-
-Feel free to fork, customize, and contribute to this project. If you find it useful, leaving a star would be greatly appreciated.
