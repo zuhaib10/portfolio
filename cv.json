@@ -21,29 +21,29 @@
         "network": "X / Twitter",
         "icon": "ri:twitter-fill",
         "color": "#1DA1F2",
-        "username": "@arielGfalcon",
-        "url": "https://x.com/arielGfalcon"
+        "username": "@zuhaibk10",
+        "url": "https://x.com/zuhaibk10"
       },
       {
         "network": "LinkedIn",
         "icon": "ri:linkedin-fill",
         "color": "#0066C2",
-        "username": "Ariel Falcón",
-        "url": "https://linkedin.com/in/arielfalcon"
+        "username": "Zuhaib Khalifa",
+        "url": "https://www.linkedin.com/in/zuhaib-khalifa-a76926169/"
       },
       {
         "network": "GitHub",
         "icon": "mdi:github",
         "color": "#929AAB",
-        "username": "ArielFalcon",
-        "url": "https://github.com/ArielFalcon"
+        "username": "zuhaib10",
+        "url": "https://github.com/zuhaib10"
       },
       {
         "network": "Email",
         "icon": "ri:mail-fill",
         "color": "#D44638",
-        "username": "Ariel González Falcón",
-        "url": "mailto:falconyumn@gmail.com"
+        "username": "Zuhaib Khalifa",
+        "url": "mailto:zuhaibkhalifa@gmail.com"
       }
     ]
   },
