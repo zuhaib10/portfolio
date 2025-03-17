@@ -9,7 +9,7 @@
     "image": "/portfolio/pfp.jpg",
     "email": "falconyumn@gmail.com",
     "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Front-end developer, at the moment. I work on Angular and Vue with Typescript / HTML5 / SCSS. Currently learning about Back-end Development, Cloud Computing and DevOps.",
+    "summary": "Front-end developer, at the moment. I work on React.js and Next.js with Typescript / HTML5 / SCSS. Currently learning about Back-end Development, Cloud Computing and DevOps.",
     "theme": "orange",
     "location": {
       "address": "United Arab Emirates",
@@ -89,7 +89,7 @@
       "startDate": "2023-07-03",
       "endDate": null,
       "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
-      "highlights": ["Developed a data-intensive Angular project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
+      "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
       "responsibilities": [
         "Developed and maintained front-end projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
         "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
@@ -100,7 +100,7 @@
       "achievements": [
         "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
         "Developed an internal tool to streamline client-owned code documentation, introducing interactive design guidelines and testable components.",
-        "Created a highly complex Angular application for the national healthcare system, successfully handling large-scale data and implementing intricate business logic.",
+        "Created a highly complex React.js application for the national healthcare system, successfully handling large-scale data and implementing intricate business logic.",
         "Built reusable and scalable Vue components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
       ],
       "skills": {
@@ -172,7 +172,7 @@
       "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
     },
     {
-      "name": "Angular",
+      "name": "React.js",
       "icon": "simple-icons:angular",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
