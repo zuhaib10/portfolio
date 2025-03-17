@@ -1,111 +1,144 @@
 ---
-import SidebarLayout from "../layouts/SidebarLayout.astro";
+import Layout from "@layouts/Layout.astro";
 
-const posts = await Astro.glob("./posts/*.md");
-const projects = await Astro.glob("./projects/*.md");
+import About from "@/components/sections/About.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import ThemeSwitch from "@/components/ThemeSwitch.astro";
+
+import CV, { basics } from "@cv";
+import Education from "@/components/sections/Education.astro";
+const { name } = basics;
 ---
 
-<SidebarLayout title="Zuhaib - Software Engineer ">
-  <section class="about">
-    <p>
-      Passionate about crafting efficient and scalable digital solutions, I thrive on solving complex challenges with clean and optimized code. My expertise spans web and mobile development, AI-driven
-      applications, and backend architectures, ensuring seamless user experiences.
-    </p>
-  </section>
-
-  <section class="posts">
-    <h2><span class="icon">📡</span> Themes</h2>
-    {
-      posts.map((post) => (
-        <div class="post-item">
-          <a href={post.url} class="post-title">
-            {post.frontmatter.title}
-          </a>
-          <p class="post-description">{post.frontmatter.description}</p>
-        </div>
-      ))
-    }
-  </section>
-
-  <section class="projects">
-    <h2><span class="icon">📁</span> Projects</h2>
-    {
-      projects.map((project) => (
-        <div class="project-item">
-          <a href={project.url} class="project-title">
-            {project.frontmatter.title}
-          </a>
-          <p class="project-description">{project.frontmatter.description}</p>
-        </div>
-      ))
-    }
-  </section>
-
-  <section class="experience">
-    <h2><span class="icon">💼</span> Work Experience</h2>
-    <div class="experience-item">
-      <div class="experience-header">
-        <span class="date">2020 - present</span>
-        <h3>Icons8.com - SEO</h3>
-      </div>
-      <div class="experience-header">
-        <span class="date">2010 - 2020</span>
-        <h3>Citysakh.ru - CEO</h3>
-      </div>
+<Layout title={`${name} - Portfolio`}>
+  <main class="relative grid h-full max-w-7xl gap-12 p-8 max-sm:py-16 md:min-h-screen md:grid-cols-6 md:p-16 xl:gap-24 text-skin-base print:gap-4">
+    <div class="slide-enter space-y-6 ease-in md:col-span-2 print:grid print:grid-cols-5 print:space-y-0">
+      <Hero className="col-span-2" />
+      <About className="col-span-3" />
+      <ThemeSwitch />
     </div>
-  </section>
-</SidebarLayout>
+    <div class="slide-enter-content space-y-12 md:col-span-4 print:grid print:grid-cols-5 print:grid-flow-row print:gap-2 print:space-y-0">
+      <Experience className="print:col-span-3" />
+      {
+        (
+          <>
+            <Projects className="print:hidden" />
+            {CV?.education && <Education className="order-first print:col-span-2" />}
+            <Skills className="print:col-span-full" />
+          </>
+        )
+      }
+    </div>
+  </main>
+</Layout>
 
 <style>
-  section {
-    margin: 2rem 0;
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 8px;
+  }
+  .scrollbar-thumb-gray-400::-webkit-scrollbar-thumb {
+    background-color: #a0aec0;
+    border-radius: 4px;
+  }
+</style>
+
+<style is:global>
+  * {
+    scrollbar-color: var(--color-button-muted) var(--color-fill);
+  }
+  @page {
+    size: auto;
+    margin: 0;
+  }
+  main {
+    margin: auto;
+    width: 100%;
   }
 
-  .post-item,
-  .project-item,
-  .experience-item {
-    margin: 1.5rem 0;
+  @keyframes slide-enter {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
-  .post-title,
-  .project-title {
-    font-size: 1.2rem;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+  @media (prefers-reduced-motion: no-preference) {
+    .slide-enter,
+    .slide-enter-content > *:not(:has(.table-of-contents)) {
+      --enter-stage: 0;
+      --enter-step: 150ms;
+      --enter-initial: 0ms;
+      animation: slide-enter 1s both 1;
+      animation-delay: calc(var(--enter-initial) + var(--enter-stage) * var(--enter-step));
+    }
 
-  .post-date,
-  .project-date {
-    font-size: 0.8rem;
-    color: #666;
-  }
-
-  .experience-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-
-  .date {
-    color: #666;
-    font-size: 0.9rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .icon {
-    font-size: 1.2rem;
+    .slide-enter-content > *:nth-child(1) {
+      --enter-stage: 1 !important;
+    }
+    .slide-enter-content > *:nth-child(2) {
+      --enter-stage: 2 !important;
+    }
+    .slide-enter-content > *:nth-child(3) {
+      --enter-stage: 3 !important;
+    }
+    .slide-enter-content > *:nth-child(4) {
+      --enter-stage: 4 !important;
+    }
+    .slide-enter-content > *:nth-child(5) {
+      --enter-stage: 5 !important;
+    }
+    .slide-enter-content > *:nth-child(6) {
+      --enter-stage: 6 !important;
+    }
+    .slide-enter-content > *:nth-child(7) {
+      --enter-stage: 7 !important;
+    }
+    .slide-enter-content > *:nth-child(8) {
+      --enter-stage: 8 !important;
+    }
+    .slide-enter-content > *:nth-child(9) {
+      --enter-stage: 9 !important;
+    }
+    .slide-enter-content > *:nth-child(10) {
+      --enter-stage: 10 !important;
+    }
+    .slide-enter-content > *:nth-child(11) {
+      --enter-stage: 11 !important;
+    }
+    .slide-enter-content > *:nth-child(12) {
+      --enter-stage: 12 !important;
+    }
+    .slide-enter-content > *:nth-child(13) {
+      --enter-stage: 13 !important;
+    }
+    .slide-enter-content > *:nth-child(14) {
+      --enter-stage: 14 !important;
+    }
+    .slide-enter-content > *:nth-child(15) {
+      --enter-stage: 15 !important;
+    }
+    .slide-enter-content > *:nth-child(16) {
+      --enter-stage: 16 !important;
+    }
+    .slide-enter-content > *:nth-child(17) {
+      --enter-stage: 17 !important;
+    }
+    .slide-enter-content > *:nth-child(18) {
+      --enter-stage: 18 !important;
+    }
+    .slide-enter-content > *:nth-child(19) {
+      --enter-stage: 19 !important;
+    }
+    .slide-enter-content > *:nth-child(20) {
+      --enter-stage: 20 !important;
+    }
   }
 </style>
