@@ -1,33 +1,44 @@
 ---
-import SidebarLayout from '../layouts/SidebarLayout.astro';
+import SidebarLayout from "../layouts/SidebarLayout.astro";
 
-const posts = await Astro.glob('./posts/*.md');
-const projects = await Astro.glob('./projects/*.md');
+const posts = await Astro.glob("./posts/*.md");
+const projects = await Astro.glob("./projects/*.md");
 ---
 
 <SidebarLayout title="Zuhaib - Software Developer ">
   <section class="about">
-    <p>SEO is what I love. If you think that SEO is only about title, description and Semantic Core, then unfortunately not, this is just the tip of the iceberg.</p>
+    <p>
+      Passionate about crafting efficient and scalable digital solutions, I thrive on solving complex challenges with clean and optimized code. My expertise spans web and mobile development, AI-driven
+      applications, and backend architectures, ensuring seamless user experiences.
+    </p>
   </section>
 
   <section class="posts">
-    <h2><span class="icon">📡</span> Themes  </h2>
-    {posts.map((post) => (
-      <div class="post-item">
-        <a href={post.url} class="post-title">{post.frontmatter.title}</a>
-        <p class="post-description">{post.frontmatter.description}</p>
-      </div>
-    ))}
+    <h2><span class="icon">📡</span> Themes</h2>
+    {
+      posts.map((post) => (
+        <div class="post-item">
+          <a href={post.url} class="post-title">
+            {post.frontmatter.title}
+          </a>
+          <p class="post-description">{post.frontmatter.description}</p>
+        </div>
+      ))
+    }
   </section>
 
   <section class="projects">
     <h2><span class="icon">📁</span> Projects</h2>
-    {projects.map((project) => (
-      <div class="project-item">
-        <a href={project.url} class="project-title">{project.frontmatter.title}</a>
-        <p class="project-description">{project.frontmatter.description}</p>
-      </div>
-    ))}
+    {
+      projects.map((project) => (
+        <div class="project-item">
+          <a href={project.url} class="project-title">
+            {project.frontmatter.title}
+          </a>
+          <p class="project-description">{project.frontmatter.description}</p>
+        </div>
+      ))
+    }
   </section>
 
   <section class="experience">
@@ -42,7 +53,6 @@ const projects = await Astro.glob('./projects/*.md');
         <h3>Citysakh.ru - CEO</h3>
       </div>
     </div>
-
   </section>
 </SidebarLayout>
 
@@ -54,11 +64,14 @@ const projects = await Astro.glob('./projects/*.md');
     border-radius: 8px;
   }
 
-  .post-item, .project-item, .experience-item {
+  .post-item,
+  .project-item,
+  .experience-item {
     margin: 1.5rem 0;
   }
 
-  .post-title, .project-title {
+  .post-title,
+  .project-title {
     font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
@@ -66,7 +79,8 @@ const projects = await Astro.glob('./projects/*.md');
     margin-bottom: 0.5rem;
   }
 
-  .post-date, .project-date {
+  .post-date,
+  .project-date {
     font-size: 0.8rem;
     color: #666;
   }

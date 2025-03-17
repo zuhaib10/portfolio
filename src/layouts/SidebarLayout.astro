@@ -29,7 +29,7 @@ const { profile } = siteData;
         <div class="social-links">
           {profile.socials.map((social) => (
             <a href={social.url} class="social-link">
-              <span class="icon">{social.icon}</span> {social.name}
+              <img src={social.icon} width="20" height="20"/> {social.name}
             </a>
           ))}
         </div>
