@@ -2,14 +2,14 @@
   "analyticsCode": "",
   "basics": {
     "name": "Zuhaib Khalifa",
-    "label": "Software Developer",
-    "animated_main_label": "developer",
+    "label": "Software Engineer",
+    "animated_main_label": "Engineer",
     "animated_secondary_initial_label": "software",
     "animated_secondary_final_label": "front_end",
     "image": "/portfolio/pfp.jpg",
     "email": "falconyumn@gmail.com",
     "url": "https://www.linkedin.com/in/arielfalcon/",
-    "summary": "Front-end developer, at the moment. I work on React.js and Next.js with Typescript / HTML5 / SCSS. Currently learning about Back-end Development, Cloud Computing and DevOps.",
+    "summary": "Software Engineer experience in React.js, Vue.js, Next.js, Express.js, and React Native. I've worked with Node.js, MongoDB, TypeScript, HTML5, SCSS, and Tailwind. Currently exploring Cyber Security and Cloud Computing.",
     "theme": "orange",
     "location": {
       "address": "United Arab Emirates",
@@ -49,44 +49,62 @@
   },
   "education": [
     {
-      "institution": "TEIDE Formation Center – Spain",
-      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n/",
-      "area": "Web Development",
+      "institution": "Anjuman Institute of Technology and Management ( VTU ) – India",
+      "url": "https://www.aitm.edu.in/",
+      "area": "Bachelor of Engineering in Computer Science",
       "studyType": "Full-time student",
-      "startDate": "2023-04-01",
-      "endDate": "2023-09-01"
+      "startDate": "2018-04-10",
+      "endDate": "2022-04-10"
     },
     {
-      "institution": "Calixto García Medical School – Cuba",
-      "url": "https://www.linkedin.com/company/hospital-universitario-calixto-garcia/?originalSubdomain=cu",
-      "area": "Medicine (unfinished)",
+      "institution": "Anjuman Arts, Science & Commerce College – India",
+      "url": "https://www.anjumancollege.in/",
+      "area": "Major in Computer Science",
       "studyType": "Full-time student",
-      "startDate": "2018-9-01",
-      "endDate": "2021-7-01"
+      "startDate": "2015-4-01",
+      "endDate": "2018-2-10"
     }
   ],
   "certificates": [
     {
-      "name": "AWS Certified Developer – Associate",
-      "date": "2025-05-01",
-      "url": "",
-      "issuer": "Amazon"
+      "name": "Jira Fundamentals Badge",
+      "date": "2024-07-01",
+      "url": "https://university.atlassian.com/student/award/49B6qeYAzZ7oywNXzeTQCCDr",
+      "issuer": "Atlassian"
     },
     {
-      "name": "C1 Advanced English",
-      "date": "2025-01-03",
-      "url": "https://cert.efset.org/es/6jDrGH",
-      "issuer": "EF SET"
+      "name": "The Web Developer Bootcamp 2024",
+      "date": "2024-07-01",
+      "url": "https://www.udemy.com/certificate/UC-f89d0f2d-dba0-4883-aec5-c54c895ef2e6/",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Building RESTful APIs with Node.js and Express",
+      "date": "2022-12-01",
+      "url": "https://www.linkedin.com/learning/certificates/44cffce4ad5da870fa0dc0255d2fd50f0cede5e9a9b6ff4514915e3181c71dfa",
+      "issuer": "LinkedIn"
+    },
+    {
+      "name": "Building RESTful APIs with Node.js and Express",
+      "date": "2022-12-01",
+      "url": "https://www.linkedin.com/learning/certificates/44cffce4ad5da870fa0dc0255d2fd50f0cede5e9a9b6ff4514915e3181c71dfa",
+      "issuer": "LinkedIn"
+    },
+    {
+      "name": "Java Tutorial for Complete Beginners",
+      "date": "2022-04-01",
+      "url": "https://www.udemy.com/certificate/UC-7c9d8d94-1eac-4c62-bd50-a7aa7cc3e8a3/",
+      "issuer": "Udemy"
     }
   ],
   "work": [
     {
-      "name": "Zener Soft Consulting",
+      "name": "Araby.ai",
       "position": "Front-end Developer",
-      "location_type": "Remote",
-      "location": "ES",
-      "url": "https://www.linkedin.com/company/aitor-pelaez-zenerconsulting-com/",
-      "startDate": "2023-07-03",
+      "location_type": "On-site",
+      "location": "Abu Dhabi, UAE",
+      "url": "https://www.linkedin.com/company/araby-ai/posts/?feedView=all",
+      "startDate": "2023-10-1",
       "endDate": null,
       "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
       "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
@@ -98,10 +116,104 @@
         "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction."
       ],
       "achievements": [
-        "Optimized front-end performance by resolving critical issues, improving page load times, and enhancing user experience.",
-        "Developed an internal tool to streamline client-owned code documentation, introducing interactive design guidelines and testable components.",
-        "Created a highly complex React.js application for the national healthcare system, successfully handling large-scale data and implementing intricate business logic.",
-        "Built reusable and scalable Vue components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
+        "Enhanced webpage performance with high-speed components, increasing user engagement by 45%.",
+        "Reduced codebase by 25% and improved webpage loading speed by 35%.",
+        "Implemented multiple payment gateways tailored for different countries, ensuring seamless transactions.",
+        "Built reusable and scalable React components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
+      ],
+      "skills": {
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill",
+        "SCSS": "simple-icons:sass",
+        "Bootstrap": "simple-icons:bootstrap",
+        "JavaScript ECMA6+": "simple-icons:javascript",
+        "TypeScript": "simple-icons:typescript",
+        "Vue": "mdi:vuejs",
+        "Angular": "simple-icons:angular",
+        "Jasmine": "simple-icons:jasmine",
+        "Jest": "simple-icons:jest",
+        "Java": "ri:java-line",
+        "Spring": "simple-icons:spring",
+        "NodeJS": "ri:nodejs-line",
+        "Postman": "simple-icons:postman",
+        "i18n": "simple-icons:i18next",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "Figma": "simple-icons:figma",
+        "Jira": "simple-icons:jira",
+        "Kubernetes": "simple-icons:kubernetes",
+        "Docker": "simple-icons:docker"
+      }
+    },
+    {
+      "name": "MVP Applications",
+      "position": "Full-Stack Developer",
+      "location_type": "On-site",
+      "location": "Abu Dhabi, UAE",
+      "url": "https://www.linkedin.com/company/mvp-apps/posts/?feedView=all",
+      "startDate": "2022-12-1",
+      "endDate": "2023-10-1",
+      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
+      "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
+      "responsibilities": [
+        "Developed and maintained front-end projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
+        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
+        "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
+        "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
+        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction."
+      ],
+      "achievements": [
+        "Enhanced webpage performance with high-speed components, increasing user engagement by 45%.",
+        "Reduced codebase by 25% and improved webpage loading speed by 35%.",
+        "Implemented multiple payment gateways tailored for different countries, ensuring seamless transactions.",
+        "Built reusable and scalable React components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
+      ],
+      "skills": {
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill",
+        "SCSS": "simple-icons:sass",
+        "Bootstrap": "simple-icons:bootstrap",
+        "JavaScript ECMA6+": "simple-icons:javascript",
+        "TypeScript": "simple-icons:typescript",
+        "Vue": "mdi:vuejs",
+        "Angular": "simple-icons:angular",
+        "Jasmine": "simple-icons:jasmine",
+        "Jest": "simple-icons:jest",
+        "Java": "ri:java-line",
+        "Spring": "simple-icons:spring",
+        "NodeJS": "ri:nodejs-line",
+        "Postman": "simple-icons:postman",
+        "i18n": "simple-icons:i18next",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "Figma": "simple-icons:figma",
+        "Jira": "simple-icons:jira",
+        "Kubernetes": "simple-icons:kubernetes",
+        "Docker": "simple-icons:docker"
+      }
+    },
+    {
+      "name": "ZL Technovation",
+      "position": "Software Developer Intern",
+      "location_type": "Remote",
+      "location": "Ontario, Canada",
+      "url": "https://www.linkedin.com/company/zltechnovation/posts/?feedView=all",
+      "startDate": "2021-10-1",
+      "endDate": "2022-07-1",
+      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
+      "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
+      "responsibilities": [
+        "Developed and maintained front-end projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
+        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
+        "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
+        "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
+        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction."
+      ],
+      "achievements": [
+        "Enhanced webpage performance with high-speed components, increasing user engagement by 45%.",
+        "Reduced codebase by 25% and improved webpage loading speed by 35%.",
+        "Implemented multiple payment gateways tailored for different countries, ensuring seamless transactions.",
+        "Built reusable and scalable React components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
       ],
       "skills": {
         "HTML5": "simple-icons:html5",
@@ -173,15 +285,9 @@
     },
     {
       "name": "React.js",
-      "icon": "simple-icons:angular",
+      "icon": "simple-icons:react",
       "level": "Advanced",
       "keywords": ["Web Development", "Frontend", "JavaScript Framework", "UI"]
-    },
-    {
-      "name": "RxJS",
-      "icon": "simple-icons:reactivex",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Reactive Programming", "JavaScript"]
     },
     {
       "name": "Vue",
@@ -196,10 +302,22 @@
       "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
     },
     {
+      "name": "React Native",
+      "icon": "simple-icons:react",
+      "level": "Intermediate",
+      "keywords": ["Mobile Development", "Frontend", "JavaScript Framework", "UI"]
+    },
+    {
       "name": "Node",
       "icon": "ri:nodejs-line",
       "level": "Intermediate",
       "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "npm",
+      "icon": "simple-icons:npm",
+      "level": "Intermediate",
+      "keywords": ["Package Manager", "Web Development", "Frontend", "Backend"]
     },
     {
       "name": "PNPM",
@@ -214,40 +332,40 @@
       "keywords": ["Web Development", "Backend"]
     },
     {
-      "name": "Spring",
-      "icon": "simple-icons:spring",
-      "level": "Beginner",
-      "keywords": ["Web Development", "Backend", "Java Framework"]
-    },
-    {
       "name": "MongoDB",
       "icon": "simple-icons:mongodb",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": ["Databases", "File", "Data Storage", "Backend"]
-    },
-    {
-      "name": "MySQL",
-      "icon": "simple-icons:mysql",
-      "level": "Beginner",
-      "keywords": ["Backend", "Databases", "SQL", "Relational Database"]
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "simple-icons:postgresql",
-      "level": "Beginner",
-      "keywords": ["Backend", "Databases", "SQL", "Relational Database"]
     },
     {
       "name": "Git",
       "icon": "mdi:git",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "GitHub",
       "icon": "mdi:github",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "name": "Jira",
+      "icon": "simple-icons:jira",
+      "level": "Intermediate",
+      "keywords": ["Project Management", "Collaboration", "Agile"]
+    },
+    {
+      "name": "Stripe",
+      "icon": "simple-icons:stripe",
+      "level": "Intermediate",
+      "keywords": ["Payment Gateway", "E-commerce", "Web Development", "Backend"]
+    },
+    {
+      "name": "Google Maps",
+      "icon": "simple-icons:googlemaps",
+      "level": "Intermediate",
+      "keywords": ["Maps", "Location", "Web Development", "Frontend"]
     },
     {
       "name": "AWS",
@@ -262,34 +380,10 @@
       "keywords": ["Virtual Environments", "Backend"]
     },
     {
-      "name": "Kubernetes",
-      "icon": "mdi:kubernetes",
-      "level": "Beginner",
-      "keywords": ["Virtual Environments", "Backend", "Container Orchestration"]
-    },
-    {
       "name": "Python",
       "icon": "simple-icons:python",
       "level": "Beginner",
       "keywords": ["Scripting", "Automation", "Web Development"]
-    },
-    {
-      "name": "Jest",
-      "icon": "simple-icons:jest",
-      "level": "Intermediate",
-      "keywords": ["Testing", "Web Development", "Frontend", "Backend"]
-    },
-    {
-      "name": "Jasmine",
-      "icon": "simple-icons:jasmine",
-      "level": "Intermediate",
-      "keywords": ["Testing", "Web Development", "Frontend", "Backend"]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
-      "level": "Beginner",
-      "keywords": ["Scripting", "Automation"]
     },
     {
       "name": "Linux",
@@ -318,89 +412,114 @@
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "English",
+      "fluency": "Conversational"
     },
     {
-      "language": "English",
-      "fluency": "Advanced - C1"
+      "language": "Urdu",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native"
     }
   ],
   "projects": [
     {
-      "name": "CV Matching System",
+      "name": "Araby.ai",
       "isActive": true,
-      "description": "A propiertary code AI-driven CV matching system to connect the offer and the best candidates. Automates the recruitment process.",
-      "highlights": ["🎯 Tailored job opportunities", "✨ AI-driven complex workflows ", "🚀 80% increase in productivity"],
+      "description": "A generative AI platform for Arabic content creation. I worked on integrating AI models to generate text, images, and translations, helping businesses and individuals streamline their workflow",
+      "highlights": ["🎯 3M+ Users", "✨ AI-driven Solutions ", "🖼️ Image, Video & Audio Generation", "🚀 0% increase in productivity"],
       "stack": {
-        "Python": "simple-icons:python",
-        "Redis": "simple-icons:redis",
-        "Firebase": "simple-icons:firebase",
-        "Google Cloud": "simple-icons:googlecloud",
-        "Claude": "ri:claude-fill",
-        "Groq": "ri:robot-2-fill"
-      },
-      "url": "https://www.gringojobs.com"
-    },
-    {
-      "name": "TODO List",
-      "isActive": false,
-      "description": "A simple app to showcase my skills in Angular. It's a TODO list with a beautiful and smooth UI, good user experience and best practices. Not finished yet.",
-      "highlights": ["📝 In progress", "😮‍ Made-from-scratch complex components", "😊 Beautiful and smooth UI, good user experience", "\uD83E\uDD16 Server Side Rendering"],
-      "github": "https://github.com/ArielFalcon/TODO-list",
-      "stack": {
-        "Angular": "simple-icons:angular",
-        "RxJS": "simple-icons:reactivex",
-        "TypeScript": "simple-icons:typescript",
-        "SCSS": "simple-icons:sass",
+        "React": "simple-icons:react",
+        "Tailwind": "simple-icons:tailwindcss",
         "NodeJS": "ri:nodejs-line",
-        "Firebase": "simple-icons:firebase"
-      }
-    },
-    {
-      "name": "Portfolio",
-      "isActive": true,
-      "description": "This website! My personal portfolio, made with Astro. Integrates many themes and key shortcut actions.",
-      "highlights": ["🚀 Fast, modern and SEO-friendly", "🎨 Printable CV generation", "〔N〕Crazy NeoVim mode, try it!"],
-      "github": "https://github.com/ArielFalcon/portfolio",
-      "stack": {
-        "Astro": "simple-icons:astro",
+        "MongoDB": "simple-icons:mongodb",
         "TypeScript": "simple-icons:typescript",
-        "Tailwind": "mdi:tailwind",
-        "NodeJS": "ri:nodejs-line",
-        "PNPM": "simple-icons:pnpm",
-        "Vercel": "simple-icons:vercel"
+        "stripe": "simple-icons:stripe",
+        "AWS": "simple-icons:amazonaws",
+        "Jira": "simple-icons:jira",
+        "Vite": "simple-icons:vite"
       },
-      "url": "https://www.arielfalcon.me"
+      "url": "https://www.araby.ai"
     },
     {
-      "name": "AI Web Scraper",
-      "isActive": false,
-      "description": "A web scraper that uses AI to extract data from websites. It's a tool to automate the data extraction process, using machine learning to identify and extract data from websites.",
-      "highlights": ["🤖 Simple script", "🔍 Data Extraction", "🌐 Web scraping"],
-      "stack": {
-        "Javascript": "simple-icons:javascript",
-        "Selenium": "simple-icons:selenium",
-        "ChromeDriver": "ri:chrome-fill",
-        "Groq": "ri:robot-2-fill"
-      },
-      "github": "https://github.com/ArielFalcon/ai_web_scrapper"
-    },
-    {
-      "name": "SpaceX Invaders",
+      "name": "Haqiq",
       "isActive": true,
-      "description": "A Space Invaders game with a retro look, made with Vue3 and TypeScript. It's a fun project to showcase my skills in Vue3 and TypeScript.",
-      "highlights": ["🚀 Space Invaders game", "🛸 Retro fun", "🎮 Vue3 + TypeScript"],
+      "description": "Get the latest news in just 70 words, personalized with AI, available offline, and with AI-generated audio for easy listening. No clutter, no bias—just the facts you need, anytime, anywhere.",
+      "highlights": ["📰 70-Word News Summaries", "🤖 AI-Personalized Content", "🎧 AI-Generated Audio News", "📴 Offline Access Anytime", "🚀 No Clutter, No Bias—Just Facts"],
       "stack": {
-        "Vue3": "ri:vuejs-line",
+        "React Naitve": "simple-icons:react",
         "TypeScript": "simple-icons:typescript",
         "CSS": "simple-icons:css",
-        "Vite": "simple-icons:vite",
-        "PNPM": "simple-icons:pnpm",
-        "Netlify": "simple-icons:netlify"
+        "Fast API": "simple-icons:fastapi",
+        "MongoDB": "simple-icons:mongodb",
+        "python": "simple-icons:python",
+        "AWS": "simple-icons:amazonaws"
       },
-      "github": "https://github.com/ArielFalcon/spacex-invaders",
-      "url": "https://spacex-invaders.netlify.app/"
+      "url": "https://haqiq.co/"
+    },
+    {
+      "name": "B-SEEN",
+      "isActive": true,
+      "description": "A tech-driven car advertising platform in Saudi Arabia that connects brands with high-visibility vehicle ads. I contributed to developing real-time analytics and tracking tools to measure impressions, optimize campaigns, and maximize reach",
+      "highlights": ["📊 Real-Time Campaign Analytics", "📍 Advanced Tracking & Impression Estimation", "🚀 Data-Driven Ad Optimization"],
+      "stack": {
+        "Vue": "simple-icons:vuedotjs",
+        "TypeScript": "simple-icons:typescript",
+        "Express": "simple-icons:express",
+        "MongoDB": "simple-icons:mongodb",
+        "SCSS": "simple-icons:sass",
+        "NodeJS": "ri:nodejs-line",
+        "Firebase": "simple-icons:firebase",
+        "Maps": "simple-icons:googlemaps",
+        "Vite": "simple-icons:vite"
+      },
+      "url": "https://www.bseen.sa/"
+    },
+    {
+      "name": "Emirates Red Crescent",
+      "isActive": true,
+      "description": "This website! My personal portfolio, made with Astro. Integrates many themes and key shortcut actions.",
+      "highlights": ["🤝 Humanitarian Aid & Relief", "💻 Digital Solutions for Donations", "🌍 Enhanced Accessibility & User Engagement", "📊 Streamlined Charity Management"],
+      "github": "",
+      "stack": {
+        "React": "simple-icons:react",
+        "TypeScript": "simple-icons:typescript",
+        "Tailwind": "mdi:tailwind",
+        "Bootstrap": "simple-icons:bootstrap",
+        "NodeJS": "ri:nodejs-line",
+        "npm": "simple-icons:npm"
+      },
+      "url": "https://www.emiratesrc.ae/"
+    },
+    {
+      "name": "Epic Padel",
+      "isActive": true,
+      "description": "A premium padel court booking platform offering seamless online reservations and exclusive membership benefits. I contributed to optimizing the booking system, enhancing user experience, and implementing features for members to enjoy priority access and special offers.",
+      "highlights": ["🎾 Seamless Padel Court Booking", "📅 Exclusive Member Benefits & Priority Access", "⚡ Instant & Hassle-Free Reservations"],
+      "stack": {
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill",
+        "JavaScript": "simple-icons:javascript",
+        "stripe": "simple-icons:stripe",
+        "C-Panel": "simple-icons:cpanel"
+      },
+      "url": "https://www.epic-padel.com/"
+    },
+    {
+      "name": "Product Verification API",
+      "isActive": false,
+      "description": "A backend service designed to verify product authenticity using unique codes. I worked on implementing secure endpoints, optimizing database queries, and ensuring a seamless verification process to prevent counterfeit products.",
+      "highlights": ["🔐 Secure Product Authentication", "⚡ Fast & Efficient Code Verification", "📡 API-Driven Real-Time Checks", "🛡️ Prevents Counterfeit Products"],
+      "stack": {
+        "Express": "simple-icons:express",
+        "MongoDB": "simple-icons:mongodb",
+        "NodeJS": "ri:nodejs-line",
+        "Postman": "simple-icons:postman",
+        "AWS": "simple-icons:amazonaws"
+      },
+      "url": "https://www.epic-padel.com/"
     }
   ]
 }

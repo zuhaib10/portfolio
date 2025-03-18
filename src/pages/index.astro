@@ -10,6 +10,7 @@ import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import CV, { basics } from "@cv";
 import Education from "@/components/sections/Education.astro";
+import Languages from "@/components/sections/languages.astro";
 const { name } = basics;
 ---
 
@@ -20,7 +21,9 @@ const { name } = basics;
       <About className="col-span-3" />
       <ThemeSwitch />
     </div>
-    <div class="slide-enter-content space-y-12 md:col-span-4 print:grid print:grid-cols-5 print:grid-flow-row print:gap-2 print:space-y-0 h-full scrollbar-thin scrollbar-thumb-gray-400 overflow-auto px-2">
+    <div
+      class="slide-enter-content space-y-12 md:col-span-4 print:grid print:grid-cols-5 print:grid-flow-row print:gap-2 print:space-y-0 h-full scrollbar-thin scrollbar-thumb-gray-400 overflow-auto px-2"
+    >
       <Experience className="print:col-span-3" />
       {
         (
@@ -28,6 +31,7 @@ const { name } = basics;
             <Projects className="print:hidden" />
             {CV?.education && <Education className="order-first print:col-span-2" />}
             <Skills className="print:col-span-full" />
+            <Languages className="print:col-span-full" />
           </>
         )
       }
