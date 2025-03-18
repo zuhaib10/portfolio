@@ -126,14 +126,12 @@
         "CSS3": "ri:css3-fill",
         "SCSS": "simple-icons:sass",
         "Bootstrap": "simple-icons:bootstrap",
+        "Tailwind": "mdi:tailwind",
+        "MUI": "simple-icons:mui",
         "JavaScript ECMA6+": "simple-icons:javascript",
         "TypeScript": "simple-icons:typescript",
-        "Vue": "mdi:vuejs",
-        "Angular": "simple-icons:angular",
-        "Jasmine": "simple-icons:jasmine",
-        "Jest": "simple-icons:jest",
-        "Java": "ri:java-line",
-        "Spring": "simple-icons:spring",
+        "React": "mdi:react",
+        "Next.js": "simple-icons:nextdotjs",
         "NodeJS": "ri:nodejs-line",
         "Postman": "simple-icons:postman",
         "i18n": "simple-icons:i18next",
@@ -141,8 +139,8 @@
         "GitHub": "mdi:github",
         "Figma": "simple-icons:figma",
         "Jira": "simple-icons:jira",
-        "Kubernetes": "simple-icons:kubernetes",
-        "Docker": "simple-icons:docker"
+        "AWS": "simple-icons:amazonaws",
+        "Amplify": "simple-icons:awsamplify"
       }
     },
     {
@@ -176,11 +174,11 @@
         "JavaScript ECMA6+": "simple-icons:javascript",
         "TypeScript": "simple-icons:typescript",
         "Vue": "mdi:vuejs",
-        "Angular": "simple-icons:angular",
-        "Jasmine": "simple-icons:jasmine",
-        "Jest": "simple-icons:jest",
-        "Java": "ri:java-line",
-        "Spring": "simple-icons:spring",
+        "React": "simple-icons:react",
+        "Tailwind": "mdi:tailwind",
+        "MUI": "simple-icons:mui",
+        "express": "simple-icons:express",
+        "MongoDB": "simple-icons:mongodb",
         "NodeJS": "ri:nodejs-line",
         "Postman": "simple-icons:postman",
         "i18n": "simple-icons:i18next",
@@ -188,8 +186,8 @@
         "GitHub": "mdi:github",
         "Figma": "simple-icons:figma",
         "Jira": "simple-icons:jira",
-        "Kubernetes": "simple-icons:kubernetes",
-        "Docker": "simple-icons:docker"
+        "Docker": "simple-icons:docker",
+        "C-Panel": "simple-icons:cpanel"
       }
     },
     {
@@ -219,24 +217,16 @@
         "HTML5": "simple-icons:html5",
         "CSS3": "ri:css3-fill",
         "SCSS": "simple-icons:sass",
-        "Bootstrap": "simple-icons:bootstrap",
         "JavaScript ECMA6+": "simple-icons:javascript",
         "TypeScript": "simple-icons:typescript",
-        "Vue": "mdi:vuejs",
-        "Angular": "simple-icons:angular",
-        "Jasmine": "simple-icons:jasmine",
-        "Jest": "simple-icons:jest",
-        "Java": "ri:java-line",
-        "Spring": "simple-icons:spring",
+        "React": "simple-icons:react",
+        "MUI": "simple-icons:mui",
         "NodeJS": "ri:nodejs-line",
+        "MongoDB": "simple-icons:mongodb",
         "Postman": "simple-icons:postman",
-        "i18n": "simple-icons:i18next",
         "Git": "mdi:git",
         "GitHub": "mdi:github",
-        "Figma": "simple-icons:figma",
-        "Jira": "simple-icons:jira",
-        "Kubernetes": "simple-icons:kubernetes",
-        "Docker": "simple-icons:docker"
+        "Figma": "simple-icons:figma"
       }
     }
   ],
@@ -264,6 +254,12 @@
       "icon": "mdi:tailwind",
       "level": "Intermediate",
       "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+    },
+    {
+      "name": "Material UI",
+      "icon": "simple-icons:mui",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "UI", "React"]
     },
     {
       "name": "Bootstrap",
@@ -374,6 +370,12 @@
       "keywords": ["Cloud Computing", "Backend", "Infrastructure"]
     },
     {
+      "name": "Amplify",
+      "icon": "simple-icons:awsamplify",
+      "level": "Beginner",
+      "keywords": ["Cloud Computing", "Backend", "Infrastructure"]
+    },
+    {
       "name": "Docker",
       "icon": "mdi:docker",
       "level": "Beginner",
@@ -390,6 +392,12 @@
       "icon": "simple-icons:linux",
       "level": "Beginner",
       "keywords": ["OS", "Scripting", "Automation"]
+    },
+    {
+      "name": "i18n",
+      "icon": "simple-icons:i18next",
+      "level": "Intermediate",
+      "keywords": ["Internationalization", "Localization", "Web Development", "Frontend"]
     },
     {
       "name": "Swagger",
@@ -432,14 +440,19 @@
       "highlights": ["🎯 3M+ Users", "✨ AI-driven Solutions ", "🖼️ Image, Video & Audio Generation", "🚀 0% increase in productivity"],
       "stack": {
         "React": "simple-icons:react",
+        "Next.js": "simple-icons:nextdotjs",
         "Tailwind": "simple-icons:tailwindcss",
+        "mui": "simple-icons:mui",
+        "JavaScript": "simple-icons:javascript",
         "NodeJS": "ri:nodejs-line",
         "MongoDB": "simple-icons:mongodb",
         "TypeScript": "simple-icons:typescript",
         "stripe": "simple-icons:stripe",
         "AWS": "simple-icons:amazonaws",
         "Jira": "simple-icons:jira",
-        "Vite": "simple-icons:vite"
+        "Vite": "simple-icons:vite",
+        "Amplify": "simple-icons:awsamplify",
+        "i18n": "simple-icons:i18next"
       },
       "url": "https://www.araby.ai"
     },
@@ -455,7 +468,8 @@
         "Fast API": "simple-icons:fastapi",
         "MongoDB": "simple-icons:mongodb",
         "python": "simple-icons:python",
-        "AWS": "simple-icons:amazonaws"
+        "AWS": "simple-icons:amazonaws",
+        "i18n": "simple-icons:i18next"
       },
       "url": "https://haqiq.co/"
     },
@@ -489,7 +503,8 @@
         "Tailwind": "mdi:tailwind",
         "Bootstrap": "simple-icons:bootstrap",
         "NodeJS": "ri:nodejs-line",
-        "npm": "simple-icons:npm"
+        "npm": "simple-icons:npm",
+        "i18n": "simple-icons:i18next"
       },
       "url": "https://www.emiratesrc.ae/"
     },
