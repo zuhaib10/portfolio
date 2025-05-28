@@ -105,7 +105,7 @@
       "location": "Abu Dhabi, UAE",
       "url": "https://www.linkedin.com/company/mvp-apps/posts/?feedView=all",
       "startDate": "2022-12-1",
-      "endDate": "2023-10-1",
+      "endDate": null,
       "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
       "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
       "responsibilities": [
