@@ -99,51 +99,6 @@
   ],
   "work": [
     {
-      "name": "Araby.ai",
-      "position": "Front-end Developer",
-      "location_type": "On-site",
-      "location": "Abu Dhabi, UAE",
-      "url": "https://www.linkedin.com/company/araby-ai/posts/?feedView=all",
-      "startDate": "2023-10-1",
-      "endDate": null,
-      "summary": "Experienced in developing high-complexity, scalable, data-driven front-end projects with a focus on performance, user experience, and system integration. Participated in development of a complex Micro-services Hexagonal DDD Spring Java project.",
-      "highlights": ["Developed a data-intensive React.js project for internal use in the national healthcare system, focusing on managing complex data sets and implementing business logic."],
-      "responsibilities": [
-        "Developed and maintained front-end projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
-        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions.",
-        "Ensured code quality and optimized front-end performance to meet user needs and business objectives.",
-        "Managed complex, data-intensive projects, ensuring smooth integration of business logic and user interfaces.",
-        "Designed and developed highly reactive components and workflows to improve application efficiency and user interaction."
-      ],
-      "achievements": [
-        "Enhanced webpage performance with high-speed components, increasing user engagement by 45%.",
-        "Reduced codebase by 25% and improved webpage loading speed by 35%.",
-        "Implemented multiple payment gateways tailored for different countries, ensuring seamless transactions.",
-        "Built reusable and scalable React components for a multinational client, ensuring consistency and improving code quality across multiple platforms."
-      ],
-      "skills": {
-        "HTML5": "simple-icons:html5",
-        "CSS3": "ri:css3-fill",
-        "SCSS": "simple-icons:sass",
-        "Bootstrap": "simple-icons:bootstrap",
-        "Tailwind": "mdi:tailwind",
-        "MUI": "simple-icons:mui",
-        "JavaScript ECMA6+": "simple-icons:javascript",
-        "TypeScript": "simple-icons:typescript",
-        "React": "mdi:react",
-        "Next.js": "simple-icons:nextdotjs",
-        "NodeJS": "ri:nodejs-line",
-        "Postman": "simple-icons:postman",
-        "i18n": "simple-icons:i18next",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "Figma": "simple-icons:figma",
-        "Jira": "simple-icons:jira",
-        "AWS": "simple-icons:amazonaws",
-        "Amplify": "simple-icons:awsamplify"
-      }
-    },
-    {
       "name": "MVP Applications",
       "position": "Full-Stack Developer",
       "location_type": "On-site",
